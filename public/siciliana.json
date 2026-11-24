@@ -1,0 +1,1079 @@
+[
+{
+"id": "ideias",
+"t": "0. Ideias gerais da Siciliana",
+"sub": "Leia primeiro: o mapa da abertura",
+"g": "Fundamentos",
+"kind": "txt",
+"slides": [
+[
+"O que é a Siciliana",
+"É a resposta 1...c5 ao 1.e4 das Brancas. Em vez de copiar o lance delas (1...e5), você cria um jogo <b>assimétrico</b>: os dois lados têm planos diferentes, e por isso é uma abertura de quem quer <b>vencer</b> com as Pretas, não só empatar."
+],
+[
+"A grande troca de peões",
+"As Brancas quase sempre jogam d4 e você troca seu peão do flanco (c) pelo peão central delas (d). Depois da troca, <b>você tem um peão a mais no centro</b> (o peão d) e as Brancas têm um peão a mais na ala da dama (o peão c). Além disso, você ganha a <b>coluna c semiaberta</b>: suas torres vão gostar dela."
+],
+[
+"Como a partida costuma ser",
+"As Brancas ficam com mais espaço e costumam atacar o seu rei (peões f e g avançando, roque grande). Você contra-ataca na ala da dama (peões a e b avançando, torres na coluna c) e no centro. Muitas vezes os reis ficam em lados opostos e vira uma <b>corrida de ataques</b>: quem for mais rápido e mais preciso ganha."
+],
+[
+"Seus três avanços de peão",
+"<b>…d5</b>: a grande quebra no centro; se você conseguir jogá-la bem, geralmente está tudo resolvido. <b>…b5</b>: ganha espaço e prepara …b4 contra o cavalo c3 e o ataque na ala da dama. <b>…e5</b> (ou …e6): controla o centro e tira o cavalo de d4. Um lance de peão não volta, então pense antes."
+],
+[
+"O que cada peça quer fazer",
+"<b>Cavalos:</b> f6 (pressiona e4) e d7 ou c6; sonham com as casas c4, e5 e c5. <b>Bispos:</b> e7 (solidez) e e6 ou b7 (miram o centro). <b>Dama:</b> c7, de onde olha a coluna c e protege b7 e d6. <b>Torres:</b> c8 (coluna c) e e8 ou d8 (centro). <b>Rei:</b> normalmente faz o roque curto cedo."
+],
+[
+"Quando a casa d5 é buraco",
+"Quando você joga …e5, a casa d5 fica sem peão para protegê-la: um cavalo branco ali incomoda. Por isso o bispo em e6 é tão comum (controla d5) e, se o cavalo branco for para lá, você o troca sem medo."
+],
+[
+"Seu método de estudo",
+"1) <b>Estudar</b>: veja cada linha lance a lance, entendendo a ideia (volte quantas vezes quiser). 2) <b>Praticar</b>: jogue de Pretas sem explicação; se errar, o treino avisa e volta o lance. 3) Repita até errar zero vezes em todas as linhas. O objetivo não é decorar: é <b>reconhecer o plano</b>."
+]
+]
+},
+{
+"id": "base",
+"t": "1. Os primeiros lances (Najdorf)",
+"sub": "1.e4 c5 … 5…a6",
+"g": "Fundamentos",
+"lines": [
+{
+"n": "Linha principal",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro com o peão do rei e abrem caminho para o bispo e a dama."
+],
+[
+"c5",
+"A Siciliana! Em vez de copiar com …e5, o peão c passa a vigiar a casa d4. Você quer um jogo desequilibrado, em que luta para vencer."
+],
+[
+"Nf3",
+"As Brancas desenvolvem o cavalo e preparam o avanço d4."
+],
+[
+"d6",
+"Protege o ponto e5 (impede e4-e5) e abre o caminho do bispo de c8. Também prepara …Nf6 sem medo de e5."
+],
+[
+"d4",
+"As Brancas abrem o centro: querem trocar o peão d delas pelo seu peão c."
+],
+[
+"cxd4",
+"A troca que define a Siciliana: seu peão do flanco sai, o peão central das Brancas também. Você fica com um peão a mais no centro e ganha a coluna c semiaberta."
+],
+[
+"Nxd4",
+"As Brancas recapturam. O cavalo em d4 fica central e forte, mas vai virar alvo dos seus próximos lances."
+],
+[
+"Nf6",
+"Desenvolve uma peça e ataca o peão e4, obrigando as Brancas a defendê-lo."
+],
+[
+"Nc3",
+"As Brancas defendem e4 desenvolvendo mais uma peça."
+],
+[
+"a6",
+"É o lance que dá nome à <b>Najdorf</b>. Ele proíbe Nb5 e Bb5+, e prepara …b5 e …e5. É um lance de espaço e controle, que mostra que você joga para ganhar."
+]
+]
+}
+],
+"planos": [
+[
+"Onde estamos",
+"Depois de 5…a6 as Brancas escolhem como atacar: 6.Be3, 6.Bg5, 6.Be2, 6.Bc4... Cada uma pede um plano diferente. Os próximos capítulos mostram cada uma."
+],
+[
+"Peões",
+"…e5 (ou …e6) para o centro; …b5 para ganhar espaço; …d5 quando for possível."
+],
+[
+"Cavalos",
+"Nf6 já está em jogo; o outro vai para d7 (ou c6)."
+],
+[
+"Bispos e dama",
+"Bispo em e7 (ou e6/b7); dama em c7."
+],
+[
+"Torres e rei",
+"Torre em c8 e e8/d8; roque curto cedo."
+]
+]
+},
+{
+"id": "be3",
+"t": "2. Contra 6.Be3 (Ataque Inglês)",
+"sub": "a mais popular: corrida de ataques",
+"g": "Najdorf: o 6º lance das Brancas",
+"lines": [
+{
+"n": "6.Be3",
+"ini": 10,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro com o peão do rei e abrem caminho para o bispo e a dama."
+],
+[
+"c5",
+"A Siciliana! Em vez de copiar com …e5, o peão c passa a vigiar a casa d4. Você quer um jogo desequilibrado, em que luta para vencer."
+],
+[
+"Nf3",
+"As Brancas desenvolvem o cavalo e preparam o avanço d4."
+],
+[
+"d6",
+"Protege o ponto e5 (impede e4-e5) e abre o caminho do bispo de c8. Também prepara …Nf6 sem medo de e5."
+],
+[
+"d4",
+"As Brancas abrem o centro: querem trocar o peão d delas pelo seu peão c."
+],
+[
+"cxd4",
+"A troca que define a Siciliana: seu peão do flanco sai, o peão central das Brancas também. Você fica com um peão a mais no centro e ganha a coluna c semiaberta."
+],
+[
+"Nxd4",
+"As Brancas recapturam. O cavalo em d4 fica central e forte, mas vai virar alvo dos seus próximos lances."
+],
+[
+"Nf6",
+"Desenvolve uma peça e ataca o peão e4, obrigando as Brancas a defendê-lo."
+],
+[
+"Nc3",
+"As Brancas defendem e4 desenvolvendo mais uma peça."
+],
+[
+"a6",
+"É o lance que dá nome à <b>Najdorf</b>. Ele proíbe Nb5 e Bb5+, e prepara …b5 e …e5. É um lance de espaço e controle, que mostra que você joga para ganhar."
+],
+[
+"Be3",
+"O <b>Ataque Inglês</b>: as Brancas vão jogar f3, Dd2, roque grande e g4-g5. Um plano de ataque ao seu rei. Note que 6.f3 chega ao mesmo tabuleiro."
+],
+[
+"e5",
+"Expulsa o cavalo de d4 e ocupa o centro. O preço: a casa d5 fica sem proteção de peão, mas você tem como controlá-la."
+],
+[
+"Nb3",
+"O cavalo recua e sai da mira do seu peão."
+],
+[
+"Be6",
+"O bispo controla a casa d5 e olha para o cavalo b3. É o jeito de compensar o buraco em d5."
+],
+[
+"f3",
+"As Brancas defendem e4 e preparam g4 e Dd2."
+],
+[
+"Be7",
+"Prepara o roque curto e solta o rei. Seu bispo também protege o centro."
+],
+[
+"Qd2",
+"As Brancas se aprontam para o roque grande."
+],
+[
+"O-O",
+"Você roca curto, mantendo o rei em um lugar relativamente seguro, e vai contra-atacar do outro lado."
+],
+[
+"O-O-O",
+"Reis em lados opostos: agora é uma corrida. Quem atacar primeiro, e melhor, ganha."
+],
+[
+"Nbd7",
+"Completa o desenvolvimento, protege o peão e5 e prepara …b5 e …Nb6 ou …Nc5."
+],
+[
+"g4",
+"As Brancas avançam os peões contra o seu rei."
+],
+[
+"b5",
+"Você responde na mesma moeda e avança contra o rei branco. Nunca fique só se defendendo: o seu contra-ataque é a melhor defesa."
+],
+[
+"g5",
+"O peão ameaça o seu cavalo em f6."
+],
+[
+"b4",
+"Ataca o cavalo c3 e ganha um tempo, porque ele é obrigado a sair."
+],
+[
+"Ne2",
+"O cavalo sai da casa atacada."
+],
+[
+"Ne8",
+"O cavalo f6 recua da ameaça do peão g5. De e8 ele protege c7 e g7 e se prepara para ajudar o ataque."
+],
+[
+"f4",
+"As Brancas abrem a coluna f e continuam o avanço."
+],
+[
+"a5",
+"Segue o plano: peões a e b avançando contra o rei branco. Daqui para frente é uma corrida e cada tempo conta."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Quanto mais rápido você contra-atacar na ala da dama, melhor: …b5-b4, …a5-a4, torres para a coluna c, dama em c7/b6."
+],
+[
+"Peças",
+"Bispo e6 controla d5; cavalos vão para d7, c5 e e8 conforme o ataque; torres c8 e b8 apoiam os peões; o bispo e7 pode ir para f8 ou d8 conforme a defesa."
+],
+[
+"Defesa",
+"Se g4 vier cedo, pense em …h6 para frear g5. Sempre calcule o xeque na casa e6/d5 antes de avançar."
+],
+[
+"Quebra",
+"Se as Brancas demorarem, …d5 é a jogada que decide a partida."
+]
+]
+},
+{
+"id": "bg5",
+"t": "3. Contra 6.Bg5",
+"sub": "pressão sobre o cavalo f6",
+"g": "Najdorf: o 6º lance das Brancas",
+"lines": [
+{
+"n": "6.Bg5",
+"ini": 10,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro com o peão do rei e abrem caminho para o bispo e a dama."
+],
+[
+"c5",
+"A Siciliana! Em vez de copiar com …e5, o peão c passa a vigiar a casa d4. Você quer um jogo desequilibrado, em que luta para vencer."
+],
+[
+"Nf3",
+"As Brancas desenvolvem o cavalo e preparam o avanço d4."
+],
+[
+"d6",
+"Protege o ponto e5 (impede e4-e5) e abre o caminho do bispo de c8. Também prepara …Nf6 sem medo de e5."
+],
+[
+"d4",
+"As Brancas abrem o centro: querem trocar o peão d delas pelo seu peão c."
+],
+[
+"cxd4",
+"A troca que define a Siciliana: seu peão do flanco sai, o peão central das Brancas também. Você fica com um peão a mais no centro e ganha a coluna c semiaberta."
+],
+[
+"Nxd4",
+"As Brancas recapturam. O cavalo em d4 fica central e forte, mas vai virar alvo dos seus próximos lances."
+],
+[
+"Nf6",
+"Desenvolve uma peça e ataca o peão e4, obrigando as Brancas a defendê-lo."
+],
+[
+"Nc3",
+"As Brancas defendem e4 desenvolvendo mais uma peça."
+],
+[
+"a6",
+"É o lance que dá nome à <b>Najdorf</b>. Ele proíbe Nb5 e Bb5+, e prepara …b5 e …e5. É um lance de espaço e controle, que mostra que você joga para ganhar."
+],
+[
+"Bg5",
+"O bispo clava o cavalo f6 (que defende e4). As Brancas querem trocá-lo e depois atacar com e5 e f4."
+],
+[
+"e6",
+"Prepara …Be7 para desfazer o clavamento, protege a casa d5 e abre o caminho do bispo de f8."
+],
+[
+"f4",
+"As Brancas reforçam e4 e preparam Df3 e roque grande."
+],
+[
+"Be7",
+"Desfaz o clavamento: agora o bispo e7 protege o cavalo f6. O rei sai para o roque."
+],
+[
+"Qf3",
+"A dama vai para f3 e se prepara para o roque grande, mirando o centro e a ala da dama."
+],
+[
+"Qc7",
+"A dama olha a coluna c e protege b7 e d6. Prepara o desenvolvimento do cavalo b8."
+],
+[
+"O-O-O",
+"As Brancas rocam grande: o rei longe do ataque e você precisa ser mais rápido."
+],
+[
+"Nbd7",
+"Desenvolve e protege o ponto e5; prepara …b5 e …Ne5 se a oportunidade surgir."
+],
+[
+"g4",
+"As Brancas lançam os peões g e h para mover o cavalo f6."
+],
+[
+"b5",
+"Você contra-ataca na ala da dama em vez de esperar."
+],
+[
+"Bxf6",
+"As Brancas trocam seu cavalo defensor de e4 para que g5 venha com força."
+],
+[
+"Nxf6",
+"Recaptura com o cavalo e mantém o bispo e7."
+],
+[
+"g5",
+"O peão ataca o cavalo f6."
+],
+[
+"Nd7",
+"O cavalo recua. Ele vai buscar uma casa melhor."
+],
+[
+"f5",
+"As Brancas avançam para tentar abrir seu rei."
+],
+[
+"Ne5",
+"A casa e5 é perfeita: o cavalo fica no centro e ataca a dama branca em f3, ganhando um tempo."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Contra-ataque rápido na ala da dama: …b5, …Bb7, …Rc8, …b4. Mantenha o cavalo e5 forte: ele é a peça-chave."
+],
+[
+"Peças",
+"O bispo e7 protege f6/g5; o cavalo e5 é o rei da posição; a dama c7 protege b7 e vigia c-file; as torres vão para c8 e d8."
+],
+[
+"Rei",
+"Seu rei pode ficar em e8 por uns lances ou fazer roque grande dependendo do ataque das Brancas: avalie sempre a segurança."
+]
+]
+},
+{
+"id": "be2",
+"t": "4. Contra 6.Be2",
+"sub": "sistema sólido das Brancas",
+"g": "Najdorf: o 6º lance das Brancas",
+"lines": [
+{
+"n": "6.Be2",
+"ini": 10,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro com o peão do rei e abrem caminho para o bispo e a dama."
+],
+[
+"c5",
+"A Siciliana! Em vez de copiar com …e5, o peão c passa a vigiar a casa d4. Você quer um jogo desequilibrado, em que luta para vencer."
+],
+[
+"Nf3",
+"As Brancas desenvolvem o cavalo e preparam o avanço d4."
+],
+[
+"d6",
+"Protege o ponto e5 (impede e4-e5) e abre o caminho do bispo de c8. Também prepara …Nf6 sem medo de e5."
+],
+[
+"d4",
+"As Brancas abrem o centro: querem trocar o peão d delas pelo seu peão c."
+],
+[
+"cxd4",
+"A troca que define a Siciliana: seu peão do flanco sai, o peão central das Brancas também. Você fica com um peão a mais no centro e ganha a coluna c semiaberta."
+],
+[
+"Nxd4",
+"As Brancas recapturam. O cavalo em d4 fica central e forte, mas vai virar alvo dos seus próximos lances."
+],
+[
+"Nf6",
+"Desenvolve uma peça e ataca o peão e4, obrigando as Brancas a defendê-lo."
+],
+[
+"Nc3",
+"As Brancas defendem e4 desenvolvendo mais uma peça."
+],
+[
+"a6",
+"É o lance que dá nome à <b>Najdorf</b>. Ele proíbe Nb5 e Bb5+, e prepara …b5 e …e5. É um lance de espaço e controle, que mostra que você joga para ganhar."
+],
+[
+"Be2",
+"As Brancas escolhem um jogo mais tranquilo: desenvolver o bispo e rocar curto, sem atacar logo."
+],
+[
+"e5",
+"O mesmo plano de sempre: expulsar o cavalo e ocupar o centro."
+],
+[
+"Nb3",
+"O cavalo recua para uma casa segura."
+],
+[
+"Be7",
+"Desenvolve e prepara o roque curto."
+],
+[
+"O-O",
+"As Brancas rocam para ficar mais seguras."
+],
+[
+"O-O",
+"Você também. Os dois reis estão no mesmo lado: é um jogo mais posicional."
+],
+[
+"Be3",
+"O bispo sai para vigiar d4 e c5."
+],
+[
+"Be6",
+"Mesma ideia: controlar a casa d5 e olhar para o cavalo b3."
+],
+[
+"f4",
+"As Brancas tentam abrir o centro atacando o peão e5."
+],
+[
+"Qc7",
+"A dama protege o peão e5 e olha a coluna c. Prepara o resto do desenvolvimento."
+],
+[
+"a4",
+"As Brancas impedem …b5, que seria seu avanço natural."
+],
+[
+"Nbd7",
+"Completa o desenvolvimento. O cavalo pode ir para c5 mais tarde."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Jogo posicional: peça por peça no lugar, depois …Rac8, …Rfe8 e …d5 ou …exf4 conforme o caso."
+],
+[
+"Peças",
+"Cavalos em f6 e d7 (para c5); bispo e6 forte; dama c7; torres em c8 e e8."
+],
+[
+"Quebra",
+"…d5 é o lance que simplifica e dá igualdade; …exf4 abre a diagonal do bispo e7."
+],
+[
+"Cuidado",
+"Com a casa d5 sem peão, evite trocas que deixem um cavalo branco instalado ali."
+]
+]
+},
+{
+"id": "bc4",
+"t": "5. Contra 6.Bc4",
+"sub": "o bispo agressivo",
+"g": "Najdorf: o 6º lance das Brancas",
+"lines": [
+{
+"n": "6.Bc4",
+"ini": 10,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro com o peão do rei e abrem caminho para o bispo e a dama."
+],
+[
+"c5",
+"A Siciliana! Em vez de copiar com …e5, o peão c passa a vigiar a casa d4. Você quer um jogo desequilibrado, em que luta para vencer."
+],
+[
+"Nf3",
+"As Brancas desenvolvem o cavalo e preparam o avanço d4."
+],
+[
+"d6",
+"Protege o ponto e5 (impede e4-e5) e abre o caminho do bispo de c8. Também prepara …Nf6 sem medo de e5."
+],
+[
+"d4",
+"As Brancas abrem o centro: querem trocar o peão d delas pelo seu peão c."
+],
+[
+"cxd4",
+"A troca que define a Siciliana: seu peão do flanco sai, o peão central das Brancas também. Você fica com um peão a mais no centro e ganha a coluna c semiaberta."
+],
+[
+"Nxd4",
+"As Brancas recapturam. O cavalo em d4 fica central e forte, mas vai virar alvo dos seus próximos lances."
+],
+[
+"Nf6",
+"Desenvolve uma peça e ataca o peão e4, obrigando as Brancas a defendê-lo."
+],
+[
+"Nc3",
+"As Brancas defendem e4 desenvolvendo mais uma peça."
+],
+[
+"a6",
+"É o lance que dá nome à <b>Najdorf</b>. Ele proíbe Nb5 e Bb5+, e prepara …b5 e …e5. É um lance de espaço e controle, que mostra que você joga para ganhar."
+],
+[
+"Bc4",
+"O bispo mira o ponto f7 e se prepara para um ataque rápido."
+],
+[
+"e6",
+"Fecha a diagonal do bispo contra f7 e abre o seu bispo de f8."
+],
+[
+"Bb3",
+"O bispo recua para manter a diagonal e fugir do seu peão b5."
+],
+[
+"b5",
+"Ganha espaço e abre a casa b7 para o bispo, preparando um ataque na ala da dama."
+],
+[
+"O-O",
+"As Brancas rocam curto para ficar seguras."
+],
+[
+"Be7",
+"Desenvolve e prepara o roque curto. Cuidado com sacrifícios na casa e6 e f7, mantenha o centro sólido."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"…Bb7, …Nbd7, …Qc7 e roque curto. Seu peão b5 gosta de avançar para b4."
+],
+[
+"Peças",
+"Bispo b7 na longa diagonal; cavalos em f6 e d7; torre em c8; dama em c7."
+],
+[
+"Cuidado",
+"Veja sempre as ameaças das Brancas contra f7 e e6, com sacrifícios (Cxe6, Bxe6)."
+]
+]
+},
+{
+"id": "moscou",
+"t": "6. Contra 3.Bb5+ (variante de Moscou)",
+"sub": "sem peões no centro",
+"g": "Anti-Sicilianas",
+"lines": [
+{
+"n": "Moscou",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro."
+],
+[
+"c5",
+"A Siciliana."
+],
+[
+"Nf3",
+"As Brancas desenvolvem."
+],
+[
+"d6",
+"Controla e5 e abre o bispo."
+],
+[
+"Bb5+",
+"As Brancas dão xeque e tentam evitar a abertura do centro."
+],
+[
+"Bd7",
+"Bloqueia o xeque com o bispo. É natural: o bispo troca com o dele."
+],
+[
+"Bxd7+",
+"Troca de bispos."
+],
+[
+"Qxd7",
+"A dama recaptura e fica bem posicionada, mirando o centro."
+],
+[
+"c4",
+"As Brancas tentam uma estrutura de controle no centro (Maroczy)."
+],
+[
+"Nc6",
+"Desenvolve o cavalo e pressiona o centro."
+],
+[
+"Nc3",
+"As Brancas completam o desenvolvimento."
+],
+[
+"Nf6",
+"Desenvolve e prepara o roque."
+],
+[
+"O-O",
+"As Brancas rocam curto."
+],
+[
+"g6",
+"Prepara o bispo em g7 (fianqueto)."
+],
+[
+"d4",
+"As Brancas abrem o centro."
+],
+[
+"cxd4",
+"Você aproveita para trocar."
+],
+[
+"Nxd4",
+"As Brancas recapturam."
+],
+[
+"Bg7",
+"O bispo fica na grande diagonal e pressiona o cavalo d4 e a ala da dama."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Fianqueto do bispo em g7 e jogo posicional: roque curto, …Rac8 e …Qd7/Qc7."
+],
+[
+"Peças",
+"Bispo g7 domina a grande diagonal; cavalos em f6 e c6; torre c8; dama d7 ou c7."
+],
+[
+"Quebra",
+"…d5 ou …Nxd4 e …Qc6 para simplificar."
+]
+]
+},
+{
+"id": "alapin",
+"t": "7. Contra 2.c3 (Alapin)",
+"sub": "as Brancas querem d4 sem trocar",
+"g": "Anti-Sicilianas",
+"lines": [
+{
+"n": "Alapin",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro."
+],
+[
+"c5",
+"A Siciliana."
+],
+[
+"c3",
+"O <b>Alapin</b>: as Brancas preparam d4 sem trocar o peão d para c, para manter o centro."
+],
+[
+"d5",
+"Você ataca o centro imediatamente. Ideia: atacar o peão e4 antes que d4 venha."
+],
+[
+"exd5",
+"As Brancas capturam."
+],
+[
+"Qxd5",
+"Você recaptura com a dama, ganhando espaço no centro."
+],
+[
+"d4",
+"As Brancas ocupam o centro."
+],
+[
+"Nf6",
+"Desenvolve e ataca."
+],
+[
+"Nf3",
+"As Brancas desenvolvem."
+],
+[
+"Bg4",
+"O bispo clava o cavalo f3 e acelera o desenvolvimento."
+],
+[
+"Be2",
+"As Brancas desenvolvem o bispo."
+],
+[
+"e6",
+"Prepara o desenvolvimento do outro bispo."
+],
+[
+"O-O",
+"As Brancas rocam."
+],
+[
+"Nc6",
+"Completa o desenvolvimento e pressiona d4."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Desenvolver rápido, pressionar d4 com …Nc6, …cxd4, ...Be7 e roque curto."
+],
+[
+"Peças",
+"Bispo g4 incomoda; dama d5 fica ativa; cavalos f6 e c6; torres no centro."
+],
+[
+"Cuidado",
+"Se a dama for perseguida, pense antes de mover para não perder tempo."
+]
+]
+},
+{
+"id": "morra",
+"t": "8. Contra o Gambito Smith-Morra",
+"sub": "as Brancas oferecem um peão",
+"g": "Anti-Sicilianas",
+"lines": [
+{
+"n": "Smith-Morra",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro."
+],
+[
+"c5",
+"A Siciliana."
+],
+[
+"d4",
+"As Brancas abrem o centro."
+],
+[
+"cxd4",
+"Você troca."
+],
+[
+"c3",
+"O <b>Gambito Smith-Morra</b>: as Brancas oferecem o peão em troca de desenvolvimento rápido."
+],
+[
+"dxc3",
+"Você aceita o peão. É material extra: você só precisa se desenvolver com cuidado."
+],
+[
+"Nxc3",
+"As Brancas recapturam e ganham desenvolvimento."
+],
+[
+"Nc6",
+"Desenvolve e pressiona d4."
+],
+[
+"Nf3",
+"As Brancas desenvolvem."
+],
+[
+"d6",
+"Protege e5 e abre o bispo."
+],
+[
+"Bc4",
+"O bispo aponta para f7."
+],
+[
+"e6",
+"Fecha a diagonal e prepara o desenvolvimento."
+],
+[
+"O-O",
+"As Brancas rocam."
+],
+[
+"Nf6",
+"Desenvolve e protege o centro."
+],
+[
+"Qe2",
+"A dama se prepara para o ataque."
+],
+[
+"Be7",
+"Desenvolve e prepara o roque."
+],
+[
+"Rd1",
+"A torre vai para a coluna d."
+],
+[
+"e5",
+"Fecha a diagonal do bispo e consolida o centro: o peão extra é seu, agora jogue com calma."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"Devolver o peão no momento certo se for preciso, mantendo desenvolvimento seguro."
+],
+[
+"Peças",
+"Cavalos c6 e f6; bispo e7; roque curto; torres c8 e d8."
+],
+[
+"Cuidado",
+"Evite que as Brancas ataquem f7 e e6; seja preciso com o tempo."
+]
+]
+},
+{
+"id": "fechada",
+"t": "9. Contra 2.Nc3 (Siciliana Fechada)",
+"sub": "fianqueto e jogo lento",
+"g": "Anti-Sicilianas",
+"lines": [
+{
+"n": "Siciliana Fechada",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro."
+],
+[
+"c5",
+"A Siciliana."
+],
+[
+"Nc3",
+"As Brancas desenvolvem o cavalo e adiam d4: jogo fechado."
+],
+[
+"Nc6",
+"Desenvolve e vigia d4."
+],
+[
+"g3",
+"As Brancas preparam o bispo em g2."
+],
+[
+"g6",
+"Você também fianqueta."
+],
+[
+"Bg2",
+"O bispo vai para a grande diagonal."
+],
+[
+"Bg7",
+"O seu bispo faz o mesmo."
+],
+[
+"d3",
+"As Brancas reforçam o centro."
+],
+[
+"d6",
+"Controla e5 e prepara o desenvolvimento."
+],
+[
+"f4",
+"As Brancas avançam com o plano de ataque."
+],
+[
+"e6",
+"Prepara o cavalo e7 e controla d5."
+],
+[
+"Nf3",
+"As Brancas desenvolvem."
+],
+[
+"Nge7",
+"Desenvolve o cavalo sem bloquear o bispo."
+],
+[
+"O-O",
+"As Brancas rocam."
+],
+[
+"O-O",
+"Você também. Posição simétrica e flexível."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"…b6 e …Bb7 ou …Nd4 e …Rb8 com …b5; cavalo vai para d4 ou e5 via c6."
+],
+[
+"Peças",
+"Bispo g7 forte; cavalos c6 e e7; torre b8; dama d7 ou c7."
+],
+[
+"Cuidado",
+"As Brancas podem avançar f5; esteja pronto com …exf5 ou …gxf5."
+]
+]
+},
+{
+"id": "gp",
+"t": "10. Contra 2.f4 (Grand Prix)",
+"sub": "ataque com peões e bispo",
+"g": "Anti-Sicilianas",
+"lines": [
+{
+"n": "Grand Prix",
+"ini": 0,
+"mv": [
+[
+"e4",
+"As Brancas ocupam o centro."
+],
+[
+"c5",
+"A Siciliana."
+],
+[
+"f4",
+"O <b>Grand Prix</b>: as Brancas avançam f4 para atacar cedo."
+],
+[
+"Nc6",
+"Desenvolve e mantém o centro vigiado."
+],
+[
+"Nf3",
+"As Brancas desenvolvem."
+],
+[
+"g6",
+"Prepara o fianqueto."
+],
+[
+"Bc4",
+"O bispo mira f7."
+],
+[
+"Bg7",
+"O bispo fica ativo na grande diagonal."
+],
+[
+"O-O",
+"As Brancas rocam."
+],
+[
+"e6",
+"Fecha a diagonal contra f7 e prepara o cavalo e7."
+],
+[
+"d3",
+"As Brancas reforçam o centro."
+],
+[
+"Nge7",
+"Desenvolve o cavalo sem bloquear o bispo."
+],
+[
+"c3",
+"As Brancas preparam d4."
+],
+[
+"d5",
+"A quebra central que resolve a abertura."
+],
+[
+"exd5",
+"As Brancas capturam."
+],
+[
+"exd5",
+"Você recaptura e fica com um centro sólido."
+],
+[
+"Bb3",
+"O bispo recua e mantém a diagonal."
+],
+[
+"O-O",
+"Você roca e completa a segurança do rei."
+]
+]
+}
+],
+"planos": [
+[
+"Plano geral",
+"…d5 central, bispo g7 forte, cavalos c6 e e7, torres no centro."
+],
+[
+"Peças",
+"Bispo g7 domina; cavalo e7 vai para f5 ou g6; torre e8; dama d7."
+],
+[
+"Cuidado",
+"Fique atento aos sacrifícios em f7 e ao ataque com f5."
+]
+]
+}
+]

@@ -1,0 +1,11 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LanceLab</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><h1>♞ Lance<span>Lab</span></h1><p>Cole a partida (PGN ou só os lances) e receba a revisão profunda.</p><p><a href="sic.html">📘 Treinar a Siciliana (Pretas)</a></p></header>
+<main id="in"><textarea id="pgn" placeholder="1. e4 e5 2. Nf3 Nc6 ..."></textarea><button id="go">Analisar</button><p id="err"></p></main>
+<section id="out" hidden><div class="wrap"><div class="left"><div class="pl" id="top"></div>
+<div class="bw"><div id="bar"><div id="barw"></div><b id="bt"></b></div>
+<div id="bd"><div id="sqs"></div><div id="pcs"></div><svg id="arr" viewBox="0 0 8 8"><defs><marker id="m" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto"><path d="M0,0L4,2L0,4z" fill="#f5b942"/></marker></defs></svg><div id="bg"></div></div></div>
+<div class="pl" id="bot"></div>
+<div class="nav"><button data-n="s">⏮</button><button data-n="p">◀</button><button id="play">▶▶</button><button data-n="n">▶</button><button data-n="e">⏭</button><button id="mute">🔊</button></div></div>
+<div class="right"><div id="op"></div><div id="cm"></div><svg id="gr" viewBox="0 0 300 60" preserveAspectRatio="none"></svg><div id="en"></div><div id="sm"></div><div id="ml"></div><button id="back">Nova análise</button></div></div></section>
+<script src="app.js"></script></body></html>
